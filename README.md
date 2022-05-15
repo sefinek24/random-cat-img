@@ -8,11 +8,22 @@
 > **$** npm install random-cat-img
 
 ## 🐈 » Usage
+### Async/await example
 ```js
 const randomCat = require('random-cat-img');
 
-console.log(randomCat());
+(async () => {
+    const res = await randomCat();
+    console.log(res.data);
+})();
 // > {"success":true,"status":200,"category":"animals","endpoint":"cat","message":"https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg"}
+```
+
+### Promise example
+```js
+const randomCat = require('random-cat-img');
+
+randomCat().then(res => console.log(res.data));
 ```
 
 ## 🤝 » Help
