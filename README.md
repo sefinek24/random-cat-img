@@ -4,10 +4,10 @@
     <img src="https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="280px">
 </div>
 
-## 🤔 » Installation
+## 😼 » Installation
 > **$** npm install random-cat-img
 
-## 📝 » Usage
+## 🐈 » Usage
 ```js
 const randomCat = require('random-cat-img');
 
