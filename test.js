@@ -1,3 +1,6 @@
 const randomCat = require('./index.js');
 
-randomCat().then(res => console.log(res.data));
+(async () => {
+	const res = await randomCat();
+	console.log(res.data);
+})();
