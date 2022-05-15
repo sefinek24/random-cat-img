@@ -1,7 +1,7 @@
 ## 🌍 » What is that?
 This package returns a random cat image from https://api.skiffybot.xyz API.
 
-<img src="https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat">
+<img src="https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="300px">
 
 ## 🤔 » Installation
 > **$** npm install random-cat-img
