@@ -1,4 +1,4 @@
-const randomCat = require('./index.js');
+const randomCat = require('./');
 
 (async () => {
 	const res = await randomCat();
