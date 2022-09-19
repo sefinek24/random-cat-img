@@ -1,7 +1,10 @@
 <div align="center">
     <h1>😻 » What is that? « 😽</h1>
-    <p>This package for npm returns a random cat image from <a href="https://api.skiffybot.xyz" target="_blank">API</a>.</p>
-    <img src="https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="290px">
+    This package for npm returns a random cat image from <a href="https://api.skiffybot.xyz" target="_blank">API</a>.<br>
+    See better module <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a>.
+    <p>
+        <img src="https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="290px">
+    </p>
 </div>
 
 ## 😼 » Installation
