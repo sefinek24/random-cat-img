@@ -1,8 +1,8 @@
 <div align="center">
     <h1>😻 » What is that? « 😽</h1>
-    This package for npm returns a random cat image from <a href="https://api.skiffybot.xyz" target="_blank">API</a>.
+    This package for npm returns a random cat image from <a href="https://api-skiffy.sefinek.fun" target="_blank">API</a>.
     <p>Check better alternative <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a>.</p>
-    <img src="https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="290px">
+    <img src="https://cdn-skiffy.sefinek.fun/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="290px">
 </div>
 
 ## 😼 » Installation
@@ -33,7 +33,7 @@ randomCat().then(res => console.log(res.data));
   "status": 200,
   "category": "animals",
   "endpoint": "cat",
-  "message": "https://cdn.skiffybot.xyz/images/animals/cat/little-cat-1408118-min.jpg"
+  "message": "https://cdn-skiffy.sefinek.fun/images/animals/cat/little-cat-1408118-min.jpg"
 }
 ```
 
