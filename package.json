@@ -1,6 +1,6 @@
 {
   "name": "random-cat-img",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This package returns a random cat image from API.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/sefinek24/random-cat#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.1.2"
   }
 }
