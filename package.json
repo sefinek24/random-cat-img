@@ -1,6 +1,6 @@
 {
   "name": "random-cat-img",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This package returns a random cat image from API.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sefinek24/random-cat.git"
+    "url": "git+https://github.com/sefinek24/random-cat-img.git"
   },
   "keywords": [
     "random",
@@ -21,13 +21,13 @@
     "bot",
     "api"
   ],
-  "author": "Sefinek <contact@sefinek.fun>",
+  "author": "Sefinek (https://sefinek.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sefinek24/random-cat/issues"
+    "url": "https://github.com/sefinek24/random-cat-img/issues"
   },
-  "homepage": "https://github.com/sefinek24/random-cat#readme",
+  "homepage": "https://github.com/sefinek24/random-cat-img#readme",
   "dependencies": {
-    "axios": "^1.1.2"
+    "axios": "^1.1.3"
   }
 }
