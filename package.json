@@ -1,10 +1,10 @@
 {
   "name": "random-cat-img",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This package returns a random cat image from API.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "node example.js",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "repository": {
@@ -19,7 +19,8 @@
     "images",
     "skiffy",
     "bot",
-    "api"
+    "api",
+    "sefinek"
   ],
   "author": "Sefinek (https://sefinek.net)",
   "license": "MIT",
@@ -28,6 +29,6 @@
   },
   "homepage": "https://github.com/sefinek24/random-cat-img#readme",
   "dependencies": {
-    "axios": "^1.1.3"
+    "axios": "^1.2.2"
   }
 }
