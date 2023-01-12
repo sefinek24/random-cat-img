@@ -1,6 +1,6 @@
 {
   "name": "random-cat-img",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This package returns a random cat image from API.",
   "main": "index.js",
   "scripts": {
