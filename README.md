@@ -1,10 +1,17 @@
 <div align="center">
     <h1>😻 » Random cat images « 😽</h1>
     <img src="https://cdn.sefinek.net/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="290px">
+    <br>
+    <a href="https://www.npmjs.com/package/@sefinek/random-cat-img" target="_blank" title="random-cat-img - npm" style="text-decoration:none">
+        <img src="https://img.shields.io/npm/dt/@sefinek/random-cat-img.svg?maxAge=3600" alt="The number of downloads">
+        <img src="https://img.shields.io/github/issues/sefinek24/random-cat-img" alt="Issues">
+        <img src="https://img.shields.io/github/last-commit/sefinek24/random-cat-img" alt="Last commit">
+        <img src="https://img.shields.io/github/commit-activity/w/sefinek24/random-cat-img" alt="Commit activity">
+        <img src="https://img.shields.io/github/languages/code-size/sefinek24/random-cat-img" alt="Code size">
+    </a>
     <p>Check better alternative: <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a></p>
     <h3>
-        » Star the repo if you liked it «<br>
-        ⭐
+        » Star the repo if you liked it «<br>⭐
     </h3>
 </div>
 
