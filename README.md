@@ -14,8 +14,10 @@
     </a>
 </div>
 
+
 ## 📑 » About
 This module retrieves random cat images from the [api.sefinek.net](https://api.sefinek.net) API using native module like [https](https://nodejs.org/api/https.html). Each image is appropriately compressed.
+
 
 ## 😼 » Installation
 ```bash
@@ -27,7 +29,6 @@ npm install random-cat-img
 ```js
 const getRandomCat = require('random-cat-img');
 ```
-
 ### • Async/await example
 ```js
 (async () => {
@@ -35,12 +36,10 @@ const getRandomCat = require('random-cat-img');
     console.log(data.message); // https://cdn.sefinek.net/images/animals/cat/cat-1362565-min.jpg
 })();
 ```
-
 ### • Promise example
 ```js
 getRandomCat().then(data => console.log(data.message)); // https://cdn.sefinek.net/images/animals/cat/my-cat-1384175-min.jpg
 ```
-
 ### • Returned object
 ```json
 {
@@ -51,10 +50,12 @@ getRandomCat().then(data => console.log(data.message)); // https://cdn.sefinek.n
 }
 ```
 
+
 ## ✨ » Final information
 Open a new [Issue](https://github.com/sefinek24/random-cat-img/issues/new) if you have any questions or issues related to this module or API.
 
 If you like this module, please star [the repository](https://github.com/sefinek24/random-cat-img).
+
 
 ## 📜 » License MIT
 <div align="center">
