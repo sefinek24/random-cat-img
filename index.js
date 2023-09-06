@@ -1,4 +1,4 @@
-const https = require('https');
+const https = require('node:https');
 const { name, version } = require('./package.json');
 
 const apiUrl = 'https://api.sefinek.net/api/v2/random/animal/cat';

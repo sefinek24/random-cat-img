@@ -4,7 +4,7 @@ const getRandomCat = require('../index.js');
 	console.time('getRandomCat');
 
 	const data = await getRandomCat();
-	console.log(data);
+	console.log(data); // Use data.message to get the image URL
 
 	console.timeEnd('getRandomCat');
 })();

@@ -8,25 +8,31 @@
     </h1>
 </div>
 
+## 📑 » About
+This module retrieves random cat images from the [api.sefinek.net](https://api.sefinek.net) API using native module like [https](https://nodejs.org/api/https.html). Each image is appropriately compressed.
+
 ## 😼 » Installation
-> **$** npm install random-cat-img
+```bash
+npm install random-cat-img
+```
 
 ## 🐈 » Usage
+### • Importing
+```js
+const getRandomCat = require('random-cat-img');
+```
+
 ### • Async/await example
 ```js
-const randomCat = require('random-cat-img');
-
 (async () => {
-    const res = await randomCat();
-    console.log(res.data.message);
+    const data = await getRandomCat();
+    console.log(data.message); // https://cdn.sefinek.net/images/animals/cat/cat-1362565-min.jpg
 })();
 ```
 
 ### • Promise example
 ```js
-const randomCat = require('random-cat-img');
-
-randomCat().then(res => console.log(res.data.message));
+getRandomCat().then(data => console.log(data.message)); // https://cdn.sefinek.net/images/animals/cat/my-cat-1384175-min.jpg
 ```
 
 ### • Returned object
@@ -34,14 +40,15 @@ randomCat().then(res => console.log(res.data.message));
 {
   "success": true,
   "status": 200,
-  "category": "animals",
-  "endpoint": "cat",
-  "message": "https://cdn.sefinek.net/images/animals/cat/little-cat-1408118-min.jpg"
+  "info": { "category": "animals", "endpoint": "cat" },
+  "message": "https://cdn.sefinek.net/images/animals/cat/neva-masquerade-cats-1375033-min.jpg"
 }
 ```
 
-## 🤝 » Help
-Open new [Issue](https://github.com/sefinek24/random-cat-img/issues/new) on GitHub.
+## ✨ » Final information
+Open a new [Issue](https://github.com/sefinek24/random-cat-img/issues/new) if you have any questions or issues related to this module or API.
 
-## ✨ » Thank you
-Give a star if you can on [GitHub](https://github.com/sefinek24/random-cat-img) page.
+If you like this module, please star [the repository](https://github.com/sefinek24/random-cat-img).
+
+## 📜 » License
+> MIT © [sefinek24](LICENSE)

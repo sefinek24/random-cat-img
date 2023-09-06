@@ -5,7 +5,9 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest test/index.test.js"
+    "test": "jest test/index.test.js",
+    "test-async": "node examples/async.example.js",
+    "test-promise": "node examples/promise.example.js"
   },
   "repository": {
     "type": "git",
