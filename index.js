@@ -3,7 +3,7 @@ const { name, version } = require('./package.json');
 
 const apiUrl = 'https://api.sefinek.net/api/v2/random/animal/cat';
 const headers = {
-	'User-Agent': `Mozilla/5.0 (compatible; ${name}/${version}; +https://github.com/sefinek24/random-cat-img)`,
+	'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-cat-img)`,
 	'Accept': 'application/json',
 	'Accept-Language': 'en-US,en;q=0.9',
 	'Cache-Control': 'no-cache',
@@ -21,10 +21,8 @@ const headers = {
  * @throws {Error} If there's an error in making the request, parsing JSON data, or if the API responds with a non-200 status code.
  */
 async function getRandomCat() {
-	const options = { headers, method: 'GET' };
-
 	return new Promise((resolve, reject) => {
-		const req = https.get(apiUrl, options, (res) => {
+		const req = https.get(apiUrl, { headers }, (res) => {
 			if (res.statusCode !== 200) {
 				reject(new Error(`Request failed with status code ${res.statusCode}`));
 				return;
@@ -49,6 +47,8 @@ async function getRandomCat() {
 		req.on('error', err => {
 			reject(new Error(`Error making the request: ${err.message}`));
 		});
+
+		req.end();
 	});
 }
 
