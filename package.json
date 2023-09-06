@@ -1,34 +1,52 @@
 {
   "name": "random-cat-img",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "This package returns a random cat image from API.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "node example.js",
-    "up": "ncu -u && npm install && npm update && npm audit fix"
+    "test": "jest test/index.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sefinek24/random-cat-img.git"
   },
   "keywords": [
-    "random",
+    "api",
+    "bot",
     "cat",
     "cats",
     "image",
     "images",
-    "skiffy",
-    "bot",
-    "api",
-    "sefinek"
+    "random",
+    "random-cat",
+    "random-cat-api",
+    "random-cat-apis",
+    "random-cat-image",
+    "random-cat-images",
+    "random-cat-img",
+    "random-cat-img-api",
+    "random-cat-img-apis",
+    "random-cats",
+    "random-kitten",
+    "random-kitten-api",
+    "random-kitten-apis",
+    "random-kitten-image",
+    "random-kitten-images",
+    "random-kitten-img",
+    "random-kitten-img-api",
+    "random-kitten-img-apis",
+    "random-kittens",
+    "sefinek",
+    "skiffy"
   ],
-  "author": "Sefinek (https://sefinek.net)",
+  "author": "Sefinek (https://sefinek.net) <contact@sefinek.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sefinek24/random-cat-img/issues"
   },
   "homepage": "https://github.com/sefinek24/random-cat-img#readme",
-  "dependencies": {
-    "axios": "^1.4.0"
+  "devDependencies": {
+    "jest": "^29.6.4"
   }
 }
