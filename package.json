@@ -2,17 +2,6 @@
   "name": "random-cat-img",
   "version": "1.1.0",
   "description": "An npm module that provides random cat images. Fast and reliable.",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "test": "jest test/index.test.js",
-    "test-async": "node examples/async.example.js",
-    "test-promise": "node examples/promise.example.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sefinek24/random-cat-img.git"
-  },
   "keywords": [
     "api",
     "bot",
@@ -40,12 +29,27 @@
     "random-kitten-img-apis",
     "random-kittens"
   ],
-  "author": "Sefinek (https://sefinek.net) <contact@sefinek.net>",
-  "license": "MIT",
+  "homepage": "https://github.com/sefinek24/random-cat-img#readme",
   "bugs": {
     "url": "https://github.com/sefinek24/random-cat-img/issues"
   },
-  "homepage": "https://github.com/sefinek24/random-cat-img#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/random-cat-img.git"
+  },
+  "license": "MIT",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest test/index.test.js",
+    "test-async": "node examples/async.example.js",
+    "test-promise": "node examples/promise.example.js"
+  },
   "devDependencies": {
     "jest": "^29.6.4"
   }
