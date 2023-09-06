@@ -57,4 +57,6 @@ Open a new [Issue](https://github.com/sefinek24/random-cat-img/issues/new) if yo
 If you like this module, please star [the repository](https://github.com/sefinek24/random-cat-img).
 
 ## 📜 » License MIT
-Copyright 2023 © by [Sefinek](https://sefinek.net). All Rights Reserved.
+<div align="center">
+    Copyright 2023 © by <a href="https://sefinek.net">Sefinek</a>. All Rights Reserved.
+</div>
