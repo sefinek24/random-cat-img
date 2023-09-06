@@ -1,7 +1,7 @@
 {
   "name": "random-cat-img",
   "version": "1.1.0",
-  "description": "This package returns a random cat image from API.",
+  "description": "An npm module that provides random cat images. Fast and reliable.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -38,9 +38,7 @@
     "random-kitten-img",
     "random-kitten-img-api",
     "random-kitten-img-apis",
-    "random-kittens",
-    "sefinek",
-    "skiffy"
+    "random-kittens"
   ],
   "author": "Sefinek (https://sefinek.net) <contact@sefinek.net>",
   "license": "MIT",
