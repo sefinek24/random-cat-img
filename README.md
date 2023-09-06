@@ -1,7 +1,7 @@
 <div align="center">
     <h1>😻 » Random cat images « 😽</h1>
     <img src="https://cdn.sefinek.net/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="290px">
-    <div>Check better alternative: <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a></div>
+    <div>Please check a more elaborate alternative: <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a></div>
     <h3>
         » Star the repo if you liked it «<br>⭐
     </h3>
