@@ -1,10 +1,11 @@
 <div align="center">
     <h1>😻 » Random cat images « 😽</h1>
     <img src="https://cdn.sefinek.net/images/animals/cat/little-cat-1408118-min.jpg" alt="Random cat" height="290px">
-    <p>Check better alternative <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a>.</p>
-    <h2>
-        » Star the repo if you liked it «<br>⭐
-    </h2>
+    <p>Check better alternative: <a href="https://www.npmjs.com/package/@sefinek/random-animals" target="_blank">@sefinek/random-animals</a></p>
+    <h3>
+        » Star the repo if you liked it «<br>
+        ⭐
+    </h3>
 </div>
 
 ## 📑 » About
