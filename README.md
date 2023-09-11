@@ -16,7 +16,8 @@
 
 
 ## 📑 » About
-This module retrieves random cat images from the [api.sefinek.net](https://api.sefinek.net) API using native module like [https](https://nodejs.org/api/https.html). Each image is appropriately compressed.
+This module retrieves random cat images from the [api.sefinek.net](https://api.sefinek.net) API using native module like [https](https://nodejs.org/api/https.html).
+Each image is appropriately compressed.
 
 
 ## 😼 » Installation
