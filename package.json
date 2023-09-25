@@ -51,6 +51,6 @@
     "test-promise": "node examples/promise.example.js"
   },
   "devDependencies": {
-    "jest": "^29.6.4"
+    "jest": "^29.7.0"
   }
 }
