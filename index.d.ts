@@ -1,14 +1,14 @@
-interface getRandomCat {
-    success: boolean;
-    status: number;
-    info: {
-        category: string;
-        endpoint: string;
-    };
-    message: string;
-}
+declare module 'random-cat-img' {
+    interface GetRandomCat {
+        success: boolean;
+        status: number;
+        info: {
+            category: string;
+            endpoint: string;
+        };
+        message: string;
+    }
 
-/*
- * This is the type definition file for the Cat API.
- * Written by ChatGPT.
- */
+    function getRandomCat(): Promise<GetRandomCat>;
+    export = getRandomCat;
+}
