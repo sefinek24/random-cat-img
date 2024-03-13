@@ -60,5 +60,5 @@ If you like this module, please star [the repository](https://github.com/sefinek
 
 ## 📜 » License MIT
 <div align="center">
-    Copyright 2023 © by <a href="https://sefinek.net">Sefinek</a>. All Rights Reserved.
+    Copyright 2023-2024 © by <a href="https://sefinek.net">Sefinek</a>. All Rights Reserved.
 </div>
