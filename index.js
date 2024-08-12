@@ -7,15 +7,8 @@ const headers = {
 	'Accept': 'application/json',
 	'Content-Type': 'application/json',
 	'Cache-Control': 'no-cache',
-	'CF-IPCountry': 'false',
-	'CF-Visitor': '{"scheme":"https"}',
 	'Connection': 'keep-alive',
-	'DNT': '1',
-	'Pragma': 'no-cache',
-	'Referrer-Policy': 'strict-origin-when-cross-origin',
-	'X-Content-Type-Options': 'nosniff',
-	'X-Frame-Options': 'DENY',
-	'X-XSS-Protection': '1; mode=block'
+	'DNT': '1'
 };
 
 const getRandomCat = () => new Promise((resolve, reject) => {
